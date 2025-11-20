@@ -3,152 +3,54 @@
 Conditional item response (column) probabilities,
  by outcome variable, for each class (row) 
  
-$`3)FloodExperience`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)
-class 1:  0.0000 0.6667 0.0000 0.0000 0.3333
-class 2:  0.1113 0.1113 0.1113 0.0000 0.6662
-class 3:  0.0000 0.0833 0.0000 0.2498 0.6670
-
-$`4-1) knowledge obtained from the government about flood related subjects`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)
-class 1:  0.0000 0.3333 0.3333 0.0000 0.3333
-class 2:  0.1113 0.4437 0.0000 0.1113 0.3338
-class 3:  0.4995 0.1675 0.0833 0.0833 0.1665
-
-$`4-2) knowledge obtained from the weatherforecast about flood related subjects`
-          Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)  Pr(6)
-class 1:  0.000 0.6667 0.0000 0.0000 0.3333 0.0000
-class 2:  0.000 0.3338 0.3325 0.1113 0.0000 0.2225
-class 3:  0.333 0.0000 0.2507 0.1665 0.2498 0.0000
-
-$`4-3) knowledge obtained from scientific sources about flood related subjects`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)
-class 1:  0.6667 0.0000 0.0000 0.0000 0.3333
-class 2:  0.1113 0.3338 0.0000 0.1113 0.4437
-class 3:  0.4163 0.0833 0.1665 0.0833 0.2507
-
-$`4-4) knowledge obtained from general media about flood related subjects`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)  Pr(6)
-class 1:  0.0000 0.0000 0.0000 0.3333 0.6667 0.0000
-class 2:  0.3338 0.2225 0.2212 0.1113 0.0000 0.1113
-class 3:  0.0833 0.0833 0.4172 0.4163 0.0000 0.0000
-
-$`4-5) knowledge obtained from social media about flood related subjects`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)  Pr(6)
-class 1:  0.6667 0.0000 0.0000 0.0000 0.3333 0.0000
-class 2:  0.3325 0.3338 0.0000 0.0000 0.1113 0.2225
-class 3:  0.1675 0.0000 0.2498 0.0833 0.0833 0.4163
-
-$`4-6) knowledge obtained from engineer agencies about flood related subjects`
-           Pr(1) Pr(2)  Pr(3)  Pr(4)
-class 1:  0.3333 0.000 0.0000 0.6667
-class 2:  0.1113 0.000 0.0000 0.8887
-class 3:  0.1665 0.333 0.1665 0.3340
-
-$`4-7) knowledge obtained from insurance companiesabout flood related subjects`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)  Pr(6)
-class 1:  0.0000 0.3333 0.0000 0.3333 0.3333 0.0000
-class 2:  0.2225 0.0000 0.0000 0.2225 0.1113 0.4437
-class 3:  0.0000 0.1665 0.0833 0.4163 0.0833 0.2507
-
-$`6) Possibility of flood in future`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)
-class 1:  0.0000 0.0000 0.0000 1.0000
-class 2:  0.0000 0.1113 0.1113 0.7775
-class 3:  0.2498 0.1665 0.2498 0.3340
-
-$`7) Impact of climate change on the likelihood of flooding`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)
-class 1:  0.0000 0.0000 0.6667 0.3333
-class 2:  0.0000 0.2212 0.2225 0.5563
-class 3:  0.0833 0.1675 0.5828 0.1665
-
-$`8) In hoeverre denkt u dat u schade zult oplopen bij een grote overstroming binnen 5 tot 10 jaar?`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)
-class 1:  0.3333 0.3333 0.3333 0.0000
-class 2:  0.3338 0.5550 0.0000 0.1113
-class 3:  0.0000 0.3340 0.5828 0.0833
-
-$`10) Who do you consider responsible for providing/having flood protection?`
+$Q1
            Pr(1)  Pr(2)  Pr(3)
-class 1:  0.0000 1.0000 0.0000
-class 2:  0.3338 0.6662 0.0000
-class 3:  0.1665 0.6670 0.1665
+class 1:  0.2480 0.4188 0.3332
+class 2:  0.3746 0.3205 0.3050
+class 3:  0.3310 0.2679 0.4011
 
-$`10) Hoeveel vertrouwen heeft u erin dat de volgende overstromingsmaatregelen uw woning zullen beschermen tegen overstromingen? - Gebieden omgeven door relatief grote begroeide zones die kunnen dienen voor waterretentie.`
-          Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)
-class 1:  0.000 0.0000 0.3333 0.3333 0.3333
-class 2:  0.555 0.1113 0.2225 0.1113 0.0000
-class 3:  0.667 0.0833 0.0000 0.0000 0.2498
+$Q2
+           Pr(1)  Pr(2)  Pr(3)  Pr(4)
+class 1:  0.1712 0.0517 0.5381 0.2390
+class 2:  0.2215 0.2758 0.2750 0.2278
+class 3:  0.3626 0.3964 0.0000 0.2409
 
-$`10) Hoeveel vertrouwen heeft u erin dat de volgende overstromingsmaatregelen uw woning zullen beschermen tegen overstromingen? - Gebieden die beschermd zijn met overstromingsmaatregelen zoals dijken.`
+$Q3
            Pr(1)  Pr(2)  Pr(3)
-class 1:  0.3333 0.0000 0.6667
-class 2:  0.3325 0.1113 0.5563
-class 3:  0.3340 0.0000 0.6660
+class 1:  0.3559 0.2420 0.4020
+class 2:  0.2997 0.2923 0.4079
+class 3:  0.3595 0.3989 0.2416
 
-$`10) Hoeveel vertrouwen heeft u erin dat de volgende overstromingsmaatregelen uw woning zullen beschermen tegen overstromingen? - Gebieden langs een rivier of waterkanaal zonder bescherming.`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)
-class 1:  0.3333 0.3333 0.0000 0.3333 0.0000
-class 2:  0.3338 0.3325 0.0000 0.3338 0.0000
-class 3:  0.2498 0.5005 0.0833 0.0833 0.0833
-
-$`11) Hoeveel vertrouwen heeft uw erin dat de volgende particuliere overstromingsmaatregelen uw woning zullen beschermen tegen overstromingen? - Groene tuin met open bestrating`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)
-class 1:  0.6667 0.0000 0.0000 0.0000 0.3333
-class 2:  0.4437 0.0000 0.0000 0.2225 0.3338
-class 3:  0.6670 0.0833 0.0833 0.0000 0.1665
-
-$`11) Hoeveel vertrouwen heeft uw erin dat de volgende particuliere overstromingsmaatregelen uw woning zullen beschermen tegen overstromingen? - Regenwaterton voor waterhergebruik`
-          Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)
-class 1:  0.000 1.0000 0.0000 0.0000 0.0000
-class 2:  0.555 0.2225 0.0000 0.1113 0.1113
-class 3:  0.667 0.2498 0.0833 0.0000 0.0000
-
-$`11) Hoeveel vertrouwen heeft uw erin dat de volgende particuliere overstromingsmaatregelen uw woning zullen beschermen tegen overstromingen? - Zandzakken`
+$Q4
            Pr(1)  Pr(2)  Pr(3)  Pr(4)
-class 1:  1.0000 0.0000 0.0000 0.0000
-class 2:  0.6662 0.1113 0.1113 0.1113
-class 3:  0.8335 0.0833 0.0833 0.0000
+class 1:  0.2073 0.5334 0.0097 0.2497
+class 2:  0.2022 0.0474 0.5650 0.1853
+class 3:  0.3243 0.3391 0.0019 0.3346
 
-$`11) Hoeveel vertrouwen heeft uw erin dat de volgende particuliere overstromingsmaatregelen uw woning zullen beschermen tegen overstromingen? - Waterdichte muren en vloeren`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)
-class 1:  0.3333 0.3333 0.0000 0.3333
-class 2:  0.8887 0.1113 0.0000 0.0000
-class 3:  0.6670 0.0000 0.0833 0.2498
-
-$`11) Hoeveel vertrouwen heeft uw erin dat de volgende particuliere overstromingsmaatregelen uw woning zullen beschermen tegen overstromingen? - Zelf activerende waterkering`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)
-class 1:  0.0000 0.0000 0.0000 0.0000 1.0000
-class 2:  0.6662 0.1113 0.2225 0.0000 0.0000
-class 3:  0.6670 0.0000 0.0000 0.0833 0.2498
-
-$`11) Hoeveel vertrouwen heeft uw erin dat de volgende particuliere overstromingsmaatregelen uw woning zullen beschermen tegen overstromingen? - Overstromingsverzekering`
-           Pr(1)  Pr(2)  Pr(3)  Pr(4)  Pr(5)  Pr(6)
-class 1:  0.3333 0.3333 0.0000 0.0000 0.3333 0.0000
-class 2:  0.5550 0.0000 0.1113 0.0000 0.3338 0.0000
-class 3:  0.2507 0.1665 0.0000 0.1665 0.1665 0.2498
+$Q5
+           Pr(1)  Pr(2)  Pr(3)
+class 1:  0.2819 0.3847 0.3334
+class 2:  0.3308 0.3066 0.3625
+class 3:  0.3138 0.4112 0.2750
 
 Estimated class population shares 
- 0.125 0.3745 0.5005 
+ 0.2754 0.4101 0.3144 
  
 Predicted class memberships (by modal posterior prob.) 
- 0.125 0.375 0.5 
+ 0.245 0.311 0.444 
  
 ========================================================= 
 Fit for 3 latent classes: 
 ========================================================= 
-number of observations: 24 
-number of estimated parameters: 239 
-residual degrees of freedom: -215 
-maximum log-likelihood: -527.3037 
+number of observations: 1000 
+number of estimated parameters: 38 
+residual degrees of freedom: 393 
+maximum log-likelihood: -6044.248 
  
-AIC(3): 1532.607
-BIC(3): 1814.162
-G^2(3): 902.0609 (Likelihood ratio/deviance statistic) 
-X^2(3): 854749671354 (Chi-square goodness of fit) 
+AIC(3): 12164.5
+BIC(3): 12350.99
+G^2(3): 462.2892 (Likelihood ratio/deviance statistic) 
+X^2(3): 397.0556 (Chi-square goodness of fit) 
  
-ALERT: number of parameters estimated ( 239 ) exceeds number of observations ( 24 ) 
- 
-ALERT: negative degrees of freedom; respecify model 
+ALERT: iterations finished, MAXIMUM LIKELIHOOD NOT FOUND 
  
